@@ -4,29 +4,23 @@
 
 .face {
 		position: absolute;
-		height: 380px;
-		width:  380px;
+		height: 284px;
+		width:  284px;
 		padding:0px;
 		background-color: #3a3a3a;
 		opacity: 0.9;
 		border-style: solid;
-		border-width: 10px;
+		border-width: 8px;
 		border-color: #bababa;
 
-
-		font-size: 50px;
-		font-family: arial;
-		color: white;
-		text-align: center;
-		vertical-align: middle;
 	   }
 
 
 #cube {
 		position: relative;
 		margin: 0 auto;
-		height: 400px;
-		width: 400px;
+		height: 300px;
+		width: 300px;
 		-webkit-transform-style: preserve-3d ;
 		-webkit-animation: mycube ease-in-out 20s  alternate infinite;
 		}
@@ -42,7 +36,7 @@
 
 #container {
 
-		margin: 200px;
+		margin: 150px;
 		-webkit-perspective:800px;
 		-webkit-perspective-origin: 50% 50%;
 	}
@@ -52,34 +46,34 @@
 
 
 #F1 {
-		-webkit-transform: rotatex(90deg) translatez(200px);
+		-webkit-transform: rotatex(90deg) translatez(150px);
 	}
 
 
 #F2 {
-		-webkit-transform: translatez(200px);
+		-webkit-transform: translatez(150px);
 	}
 
 
 #F3 {
-		-webkit-transform: rotatey(90deg) translatez(200px);
+		-webkit-transform: rotatey(90deg) translatez(150px);
 	}
 
 
 #F4 {
-		-webkit-transform: rotatey(180deg) translatez(200px);
+		-webkit-transform: rotatey(180deg) translatez(150px);
 	}
 
 
 #F5 {
 	
-		-webkit-transform: rotatey(-90deg) translatez(200px);
+		-webkit-transform: rotatey(-90deg) translatez(150px);
 	}
 
 
 #F6 {
 
-		-webkit-transform: rotatex(-90deg) translatez(200px) rotatex(180deg);
+		-webkit-transform: rotatex(-90deg) translatez(150px) rotatex(180deg);
 
 	}
 
